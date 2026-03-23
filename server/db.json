@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "hero": {
+    "image": "/assets/hero.jpg",
+    "title": "Small details.<br>Big Style.",
+    "subtitle": "Premium handmade aesthetic accessories for your everyday look."
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Onyx Beaded Bracelet",
+      "price": 1999,
+      "category": "bracelet",
+      "img": "/assets/p1.jpg",
+      "desc": "Minimalist matte onyx stones carefully strung together for an elegant everyday look. Handmade with durable stretch cord.",
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "name": "Silver Initial Charm",
+      "price": 1499,
+      "category": "charm",
+      "img": "/assets/p2.jpg",
+      "desc": "A subtle, personalized touch to your phone. Made from high-quality stainless steel that won't tarnish over time.",
+      "stock": 8
+    },
+    {
+      "id": 3,
+      "name": "Leather Loop Keychain",
+      "price": 1799,
+      "category": "keychain",
+      "img": "/assets/p3.jpg",
+      "desc": "Premium vegan leather loop with a sturdy matte black ring. Keep your keys organized in style.",
+      "stock": 24
+    },
+    {
+      "id": 4,
+      "name": "Pearl Drop Bracelet",
+      "price": 2299,
+      "category": "bracelet",
+      "img": "/assets/p4.jpg",
+      "desc": "Freshwater pearls combined with a delicate gold-filled chain. Elevate any outfit effortlessly.",
+      "stock": 4
+    },
+    {
+      "id": 5,
+      "name": "Aura Phone String",
+      "price": 1299,
+      "category": "charm",
+      "img": "/assets/p5.jpg",
+      "desc": "Aesthetic clear beads catching the light perfectly. Adds personality and security to your mobile device.",
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "name": "Minimalist Bar Keychain",
+      "price": 1599,
+      "category": "keychain",
+      "img": "/assets/p6.jpg",
+      "desc": "Sleek geometric bar design that fits perfectly in your pocket without the bulk.",
+      "stock": 18
+    }
+  ],
+  "orders": [
+    {
+      "id": 1700000000000,
+      "customer": "WhatsApp User",
+      "total": 3498,
+      "status": "Delivered",
+      "date": "2026-03-22T10:00:00.000Z",
+      "items": [
+        {
+          "name": "Onyx Beaded Bracelet",
+          "qty": 1
+        },
+        {
+          "name": "Silver Initial Charm",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": 1774280766953,
+      "customer": "WhatsApp Checkout",
+      "total": 18871,
+      "status": "Confirmed",
+      "date": "2026-03-23T15:46:06.953Z",
+      "items": [
+        {
+          "id": 3,
+          "name": "Leather Loop Keychain",
+          "qty": 1
+        },
+        {
+          "id": 1774280737111,
+          "name": "Blue bracelet",
+          "qty": 8
+        }
+      ]
+    }
+  ]
+}

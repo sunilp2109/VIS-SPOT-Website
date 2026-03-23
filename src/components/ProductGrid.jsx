@@ -51,9 +51,10 @@ function ProductCard({ item, addToCart, openModal }) {
         <img src={item.img} alt={item.name} />
         <button 
           className="add-btn" 
-          onClick={(e) => { e.stopPropagation(); addToCart(item.id); }}
+          onClick={(e) => { e.stopPropagation(); if(item.stock > 0) addToCart(item.id); else alert('Out of stock!'); }}
+          style={item.stock <= 0 ? { cursor: 'not-allowed', background: '#f5f5f5', color: '#999', opacity: 1 } : {}}
         >
-          Add to Cart
+          {item.stock <= 0 ? 'Out of Stock' : 'Add to Cart'}
         </button>
       </div>
       <div className="product-info">
